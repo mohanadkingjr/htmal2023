@@ -1,0 +1,31 @@
+.dropdown1{
+    display: inline-block;
+}
+
+#food{
+    border: none;
+    background-color: red;
+    padding: 16px;
+    cursor: pointer;
+    width: 77px;
+}
+
+.dropdown2 a{
+    display: none;
+    text-decoration: none;
+    color: black;
+    padding: 4px;   
+}
+
+.dropdown2{
+    background-color: aqua;
+    position: absolute;
+}
+
+.dropdown1:hover .dropdown2  a{
+    display: block;
+}
+
+.dropdown2 a:hover{
+    background-color: white;
+}

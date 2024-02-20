@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(15, 15, 219);
+}
+
+.items{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.free{
+    background-color: white;
+    box-sizing: 15px;
+    width: 250px;
+    height: 400px;
+}
